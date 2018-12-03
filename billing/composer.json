@@ -1,0 +1,33 @@
+{
+    "name": "souldigital/billing",
+    "description": "Pacote Laravel que fornece uma interface do tipo fluent para os serviços de assinatura e pagamento da Vindi",
+    "keywords": ["laravel", "vindi", "billing"],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "~5.3",
+        "illuminate/support": "~5.3",
+        "illuminate/validation": "~5.3",
+        "dompdf/dompdf": "^0.7.0",
+        "nesbot/carbon": "~1.0",
+        "vindi/vindi-php": "*",
+        "symfony/http-kernel": "~2.7|~3.0"
+    },
+    "require-dev": {
+        "illuminate/routing": "~5.3",
+        "illuminate/http": "~5.3",
+        "illuminate/view": "~5.3",
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0",
+        "vlucas/phpdotenv": "~2.0",
+        "orchestra/testbench": "^3.3",
+        "seizonio/laravel-php-code-analysis-hook": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Souldigital\\Billing\\": "src/",
+            "Souldigital\\Billing\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
