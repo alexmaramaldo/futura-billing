@@ -1,5 +1,5 @@
 {
-    "name": "souldigital/billing",
+    "name": "alexmaramaldo/futura-billing",
     "description": "Pacote Laravel que fornece uma interface do tipo fluent para os serviços de assinatura e pagamento da Vindi",
     "keywords": ["laravel", "vindi", "billing"],
     "require": {
